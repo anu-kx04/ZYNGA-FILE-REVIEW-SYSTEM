@@ -102,18 +102,7 @@ Stagnation Timeline: Identify stale reviews visually
 Workload Distribution: Detect overloaded architects early
 
 🏗️ System Architecture
-
-Keystone follows a Hub-and-Spoke architecture:
-
-Google Drive → Source of truth for documents
-
-Google Sheets → Lightweight, high-availability database
-
-Python Sync Daemon → Periodic background synchronization
-
-Streamlit Dashboard → Real-time visualization layer
-
-This architecture ensures simplicity, scalability, and reliability.
+![Dashboard Preview](assets/image.png)
 
 🛠️ Tech Stack
 Layer	Technology
