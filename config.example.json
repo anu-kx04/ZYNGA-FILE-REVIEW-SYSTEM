@@ -1,0 +1,26 @@
+{
+  "_readme": "Copy this file to config.json and fill in your real values. Do not commit real keys to git.",
+  "google": {
+    "drive_folder_id": "REQUIRED_STRING_FROM_URL",
+    "sheet_id": "REQUIRED_STRING_FROM_URL",
+    "credentials_file": "credentials.json",
+    "token_file": "token.json"
+  },
+  "sync": {
+    "interval_minutes": 15,
+    "enable_auto_sync": true
+  },
+  "priority": {
+    "critical_threshold": 10,
+    "high_threshold": 5,
+    "sla_days": 7
+  },
+  "notifications": {
+    "enabled": false,
+    "email": "user@example.com"
+  },
+  "dashboard": {
+    "port": 8501,
+    "auto_refresh_seconds": 60
+  }
+}

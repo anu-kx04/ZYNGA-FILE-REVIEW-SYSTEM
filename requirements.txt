@@ -1,0 +1,39 @@
+# --- Core Google Cloud & API Libraries ---
+# Authentication handling (pinned as requested)
+google-auth~=2.23.0
+google-auth-oauthlib~=1.1.0
+google-auth-httplib2>=0.2.0
+
+# Official Google API Client
+google-api-python-client~=2.100.0
+
+# Wrapper for Google Sheets (easier to use than official API)
+gspread~=5.12.0
+
+# --- Data Processing ---
+# DataFrames for manipulating review data
+pandas~=2.2.0
+# Numerical operations
+numpy
+
+# --- Web Framework (Dashboard) ---
+# Rapid dashboard development
+streamlit~=1.29.0
+
+# --- Visualization ---
+# Interactive charts
+plotly~=5.18.0
+# Static charts (backup)
+matplotlib~=3.8.0
+
+# --- Utilities ---
+# Advanced date parsing
+python-dateutil~=2.8.2
+# Scheduling background sync tasks
+APScheduler~=3.10.4
+# Loading .env files for secrets
+python-dotenv~=1.0.0
+
+# --- Optional / Extensions ---
+# C++ Bindings (for performance optimization modules)
+pybind11~=2.11.1
